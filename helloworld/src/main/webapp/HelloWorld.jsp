@@ -9,5 +9,11 @@
   <body>
     <h2><s:property value="messageStore.message" /></h2>
     <p><a href="<s:url action="index"/>">Home</a></p>
+    <p>Testing Test Test</p>
+    
+    <p><s:property value="name"/></p>
+    
+    <s:bean name="org.apache.struts.helloworld.model.MessageStore" var="messageBean"></s:bean>
+    <p><s:property value="#messageBean.message" /></p>
   </body>
 </html>

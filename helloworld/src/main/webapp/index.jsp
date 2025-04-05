@@ -11,7 +11,7 @@
 <p><a href="<s:url action='hello'/>">Hello World</a></p>
 
 <h1>Execute and Wait Test</h1>
-<a><a href="<s:url action='ExecAndWaitTest'/>">Test Execute And Wait</a></p>
+<p><a href="<s:url action='ExecAndWaitTest'/>">Test Execute And Wait</a></p>
 
 </body>
 </html>

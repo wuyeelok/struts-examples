@@ -20,6 +20,12 @@ public class HelloWorldAction extends ActionSupport {
      * to display in the view.
      */
     private MessageStore messageStore;
+    
+    private String name = "Kenneth";
+    
+    public String getName() {
+    	return name;
+    }
 
     /*
      * Creates the MessageStore model object and
@@ -28,6 +34,7 @@ public class HelloWorldAction extends ActionSupport {
      */
     public String execute() {
         messageStore = new MessageStore() ;
+        System.out.println("XXXXXXXXXXXXXXXXXX" + this.messageStore.getMessage());
 
         return SUCCESS;
     }

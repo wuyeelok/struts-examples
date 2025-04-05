@@ -17,3 +17,9 @@ In a web browser go to:  http://localhost:8080/helloworld/index.action.
 
 You should see a web page with Welcome to Struts 2!
 
+
+Important Note as 2025 for struts2 core 7.0.3 version:
+Need to use Tomcat 11 version
+Struts.xml need to add "<constant name="struts.allowlist.enable" value="false"/>" in order for the property to work
+
+
